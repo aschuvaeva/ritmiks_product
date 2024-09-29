@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* montserrat-100 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-100.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-200 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-300 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-800 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/montserrat-v26-cyrillic_latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* jost-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/jost-v15-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* yeseva-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/yeseva-one-v22-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  font-size: 100%; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* make sure to set some focus styles for accessibility */
+:focus {
+    outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+body {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+  }
+
+.main {
+    margin-top: 113px;
+  }
+  @media (max-width: 1400px) {
+    .main {
+      margin-top: 94px;
+    }
+  }
+  @media (max-width: 576px) {
+    .main {
+      margin-top: 71px;
+    }
+  }
+
+.main_shedule {
+  margin-bottom: 30px;
+}
+
+.wrapper {
+    padding: 0 15px;
+    max-width: 1320px;
+    margin: 0 auto;
+    position: relative;
+  }
+  @media (max-width: 1400px) {
+    .wrapper {
+      max-width: 1140px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .wrapper {
+      max-width: 960px;
+    }
+  }
+  @media (max-width: 992px) {
+    .wrapper {
+      max-width: 720px;
+    }
+  }
+  @media (max-width: 768px) {
+    .wrapper {
+      max-width: 540px;
+    }
+  }
+  @media (max-width: 576px) {
+    .wrapper {
+      max-width: 100%;
+      padding: 0 10px;
+    }
+  }
+
+  .title_blue {
+    color: #00061B;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 52px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  @media (max-width: 1200px) {
+    .title_blue {
+      font-size: 44px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 992px) {
+    .title_blue {
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 576px) {
+    .title_blue {
+      font-size: 32px;
+    }
+  }
+
+  .shedule_section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px;
+    margin-bottom: 40px;
+  }
+
+
+  .shedule_card1 {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 480px;
+    padding-top: none;
+    border: 2px solid #00061B;
+    border-radius: 5%;
+    overflow: hidden;
+  }
+
+
+  .img_product{
+    width: 360px; /* Изображение занимает всю ширину карточки */
+    height: 330px; /* Высота изображения */
+    object-fit: cover; /* Изображение обрезается, чтобы заполнить контейнер */
+  }
+  
+
+  
+  .title_card_shed1 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;
+    color: #FFF;
+    padding-top: 12px;
+    padding-bottom: 20px;
+
+    text-align: center;
+  }
+  
+  .title_card_shed1 {
+    background-color: #00061B;
+  }
+  
+  
+  .coach_card_shed_section {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #D9D9D9;
+    margin-top: 6px;
+  }
+  
+  .coach_card_shed {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    margin-left: 16px;
+    color: #00061B;
+  }
+  
+  .coach_card_shed strong {
+    font-weight: 500;
+  }
+  
+  .price_card_shed1, .price_card_shed2, .price_card_shed3 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    margin-bottom: auto;
+    margin-top: 12px;
+    margin-left: 16px;
+  }
+  
+
+  
+  .price_card_shed1 strong, .price_card_shed2 strong, .price_card_shed3 strong {
+    font-weight: 500;
+  }
+  
+  .title_section1, .title_section2, .title_section3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .title_section1, .title_section2, .title_section3 {
+    font-size: 24px;
+  }
+}
+
+.title_section1 {
+  color: #540F1B;
+}
+
+.title_section2 {
+  color: #00061B;
+}
+
+.title_section3 {
+  color: #00A8E2;
+}
